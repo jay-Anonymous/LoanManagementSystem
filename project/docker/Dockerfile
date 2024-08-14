@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.11.9
 LABEL maintainer "devdatta khoche"
 RUN apt-get update
 RUN mkdir /loan
